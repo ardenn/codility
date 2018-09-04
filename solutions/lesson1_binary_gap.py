@@ -1,9 +1,10 @@
+# Count the length of the longest binary gap given an integer N
 def solution(N):
     start_count = False
     max_gap = 0
     current_gap = 0
 
-    # Generate binary rep on N
+    # Generate binary rep on N.
     while N > 0:
         if N%2 == 1:
             if start_count:
