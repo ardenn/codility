@@ -115,6 +115,7 @@ dmypy.json
 
 ### Python Patch ###
 .venv/
+.env/
 
 ### Python.VirtualEnv Stack ###
 # Virtualenv
