@@ -6,9 +6,9 @@ def solution(N):
 
     # Generate binary rep on N.
     while N > 0:
-        if N%2 == 1:
+        if N % 2 == 1:
             if start_count:
-                max_gap = max(max_gap,current_gap)
+                max_gap = max(max_gap, current_gap)
                 current_gap = 0
             else:
                 start_count = True
