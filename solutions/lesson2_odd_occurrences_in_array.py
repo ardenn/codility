@@ -19,5 +19,4 @@ def solution(A):
         else:
             value_dict[el] = 1
         odd_value = el if value_dict[el] % 2 == 1 else odd_value
-        print(value_dict, odd_value)
     return odd_value
